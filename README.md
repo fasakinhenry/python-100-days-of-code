@@ -8,40 +8,29 @@ Learn with Angela Yu and actually build projects? Yes. I have to learn python an
 
 ## How to Use
 
-To get started with the Python 100 days of code project, follow these steps:
+To start the Python 100 Days of Code project:
 
-1. Clone the repository to your local machine:
-
-    ```
+1. Clone the repo:
+    ```bash
     git clone https://github.com/fasakinhenry/python-100-days-of-code.git
     ```
-
-2. Navigate to the project directory:
-   
-    ```
+2. Navigate to the project folder:
+    ```bash
     cd python-100-days-of-code/category/day_folder
     ```
-
-3. Install the required dependencies if there is one:
-
-    ```
+3. Install dependencies (if any):
+    ```bash
     pip install -r requirements.txt
     ```
+4. Open and review the Python file.
 
-4. Open the corresponding Python file for the chosen project in your preferred code editor.
-
-5. Read through the code and comments to understand how the project works.
-
-6. Modify the code as desired or add your own features to the project.
-
-7. Run the Python file to see the project in action:
-    ```
+5. Modify and run the code:
+    ```bash
     python main.py
     ```
+6. Enjoy coding!
 
-8.  Have fun coding and learning Python!
-
-Remember to commit and push your changes to your own GitHub repository to track your progress throughout the 100 days of code challenge.
+Don’t forget to commit and push your changes to track your progress.
 
 ## Projects
 
