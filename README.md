@@ -1,8 +1,10 @@
 <img src="https://github.com/user-attachments/assets/c84c5709-591f-4d0a-bdbc-aa8fb9ba0c8c" alt="fasakin-python-100-days" width="100%">
 
-# python-100-days-of-code
+# Python 100 days of code
 
 Learn with Angela Yu and actually build projects? Yes. I have to learn python and build along within 100 days.
+
+> Made with 💖 and hardwork by [Fasakin Henry](https://x.com/henqsoft)
 
 ## Beginner Projects 🐣
 
@@ -24,4 +26,42 @@ Learn with Angela Yu and actually build projects? Yes. I have to learn python an
 | 14  | Turtle Crossing Game   |
 | 15  | Coffee Machine         |
 
-Made with 💖 by [Fasakin Henry](https://x.com/henqsoft)
+## How to Use
+
+To get started with the Python 100 days of code project, follow these steps:
+
+1. Clone the repository to your local machine:
+
+    ```
+    git clone https://github.com/your-username/python-100-days-of-code.git
+    ```
+
+2. Navigate to the project directory:
+   
+    ```
+    cd python-100-days-of-code/project_name
+    ```
+
+3. Install the required dependencies:
+
+    ```
+    pip install -r requirements.txt
+    ```
+
+4. Choose a project from the list of beginner projects provided in the table above.
+
+5. Open the corresponding Python file for the chosen project in your preferred code editor.
+
+6. Read through the code and comments to understand how the project works.
+
+7. Modify the code as desired or add your own features to the project.
+
+8. Run the Python file to see the project in action:
+    ```
+    python main.py
+    ```
+
+9.  Have fun coding and learning Python!
+
+Remember to commit and push your changes to your own GitHub repository to track your progress throughout the 100 days of code challenge.
+
