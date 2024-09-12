@@ -36,21 +36,21 @@ Don’t forget to commit and push your changes to track your progress.
 
 ### Beginner Projects 🐣
 
-| Day | Project                |
-|-----|------------------------|
-| 1   | Band Name Generator    |
-| 2   | Tip Calculator         |
-| 3   | Treasure Island Game   |
-| 4   | Rock Paper Scissors    |
-| 5   | Password Generator     |
-| 6   | Weather App            |
-| 7   | Number Guessing Game   |
-| 8   | Hangman Game           |
-| 9   | Blackjack              |
-| 10  | Higher Lower Game      |
-| 11  | Pomodoro Timer         |
-| 12  | Snake Game             |
-| 13  | Pong Game              |
-| 14  | Turtle Crossing Game   |
-| 15  | Coffee Machine         |
+| Day | Project                | Topic                  |
+|-----|------------------------|--------------------------|
+| 1   | Band Name Generator    | Working with variable in Python to Manage Data   |
+| 2   | Tip Calculator         | Mathematical Operation   |
+| 3   | Treasure Island Game   | Conditional Statements   |
+| 4   | Rock Paper Scissors    | Random Number            |
+| 5   | Password Generator     | String Manipulation      |
+| 6   | Weather App            | API Integration          |
+| 7   | Number Guessing Game   | Looping                  |
+| 8   | Hangman Game           | String Manipulation      |
+| 9   | Blackjack              | Object-Oriented Design   |
+| 10  | Higher Lower Game      | Random Number            |
+| 11  | Pomodoro Timer         | Timer                    |
+| 12  | Snake Game             | Game Development         |
+| 13  | Pong Game              | Game Development         |
+| 14  | Turtle Crossing Game   | Game Development         |
+| 15  | Coffee Machine         | Object-Oriented Design   |
 

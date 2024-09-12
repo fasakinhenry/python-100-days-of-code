@@ -3,3 +3,4 @@
 We learnt about working with variables to manage data and practised a lot of the following concepts:
 
 - Printing to console in python
+- String Manipulation and code Intelligence
