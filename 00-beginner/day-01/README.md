@@ -4,3 +4,13 @@ We learnt about working with variables to manage data and practised a lot of the
 
 - Printing to console in python
 - String Manipulation and code Intelligence
+- Debugging
+- The Python Input Function
+- Python Variables
+- Variable naming
+
+## Projects
+
+> [Band name Generator Project](/00-beginner/day-01/main.py)
+
+
