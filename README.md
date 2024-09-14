@@ -36,7 +36,44 @@ Don’t forget to commit and push your changes to track your progress.
 
 Here is the folder structure of the repository:
 
+```
+📦 
+├─ 00-beginner
+│  ├─ day-01
+│  │  ├─ README.md
+│  │  ├─ concepts
+│  │  │  ├─ 00_hello-world.py
+│  │  │  └─ ...
+│  │  └─ main.py
+│  ├─ day-02
+│  │  ├─ README.md
+│  │  ├─ concepts
+│  │  │  ├─ 00_data-types.py
+│  │  │  └─ 01_strings.py
+│  │  │  └─ ...
+│  │  └─ main.py
+│  ├─ ...
+│  └─ day-N
+│     ├─ README.md
+│     ├─ concepts
+│     │  ├─ 00_concept.py
+│     │  └─ ...
+│     └─ main.py
+└─ README.md
+```
 
+### Summary of file structure
+
+The file structure of the repository is organized as follows:
+
+- The root directory contains the main README.md file.
+- Inside the root directory, there is a folder named "00-beginner" which contains the beginner level projects, other level directories are present too(intermediate, advanced etc)
+- Each day of the 100-day coding challenge is represented by a subfolder inside the level directories(folders).
+- Inside each day's subfolder, there is a README.md file that provides information about the day's project.
+- Additionally, each day's subfolder contains a "concepts" folder which includes Python code files demonstrating various concepts related to that day's project.
+- Finally, each day's subfolder also contains a "main.py" file which is the main Python file for that day's project.
+
+This folder structure allows for easy navigation and organization of the projects based on their difficulty level and day of the challenge.
 
 ## Projects
 
