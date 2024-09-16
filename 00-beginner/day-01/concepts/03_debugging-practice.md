@@ -27,3 +27,5 @@ New lines can be created with a backslash and n.
 ```
 
 e.g. When you hit run, there should be no errors and this is what should happen:
+
+> [Check the solution to the task here](./03_debugging-practice.py)
