@@ -3,7 +3,7 @@
 We learnt about working with variables to manage data and practised a lot of the following concepts:
 
 - [Printing to console in python](./concepts/00_hello-world.py)
-- [Printing Exercise]()
+- [Printing Exercise](./concepts/01_printing-exercise.py)
 - String Manipulation and code Intelligence
 - Debugging
 - The Python Input Function
