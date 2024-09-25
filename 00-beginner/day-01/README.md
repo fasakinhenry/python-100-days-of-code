@@ -13,5 +13,3 @@ We learnt about working with variables to manage data and practised a lot of the
 ## Projects
 
 > [Band name Generator Project](/00-beginner/day-01/main.py)
-
-
