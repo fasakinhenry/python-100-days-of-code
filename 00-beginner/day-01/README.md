@@ -15,6 +15,10 @@ We learnt about working with variables to manage data and practised a lot of the
 - [Debugging](./concepts/03_debugging-practice.md)
 - [Input Exercise](./concepts/06_input-exercise.md)
 
+## Quiz
+
+- [Variable naming quiz](./quiz/00_naming-quiz.html)
+
 ## Main project
 
 > [Band name Generator Project](/00-beginner/day-01/main.py)
