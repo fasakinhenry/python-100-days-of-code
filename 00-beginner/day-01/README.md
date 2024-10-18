@@ -13,6 +13,7 @@ We learnt about working with variables to manage data and practised a lot of the
 ## Exercises
 
 - [Debugging](./concepts/03_debugging-practice.md)
+- [Input Exercise](./concepts/06_input-exercise.md)
 
 ## Projects
 
