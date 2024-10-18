@@ -6,9 +6,13 @@ We learnt about working with variables to manage data and practised a lot of the
 - [Printing Exercise](./concepts/01_printing-exercise.py)
 - [String Manipulation and code Intelligence](./concepts/02_string-manipulation.py)
 - [Debugging](./concepts/03_debugging-practice.md)
-- The Python Input Function
+- [The Python Input Function](./concepts/05_input-function.py)
 - Python Variables
 - Variable naming
+
+## Exercises
+
+- [Debugging](./concepts/03_debugging-practice.md)
 
 ## Projects
 
