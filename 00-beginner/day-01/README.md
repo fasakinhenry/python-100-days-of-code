@@ -7,7 +7,7 @@ We learnt about working with variables to manage data and practised a lot of the
 - [String Manipulation and code Intelligence](./concepts/02_string-manipulation.py)
 - [Debugging](./concepts/03_debugging-practice.md)
 - [The Python Input Function](./concepts/05_input-function.py)
-- Python Variables
+- [Python Variables](./concepts/07_variables.py)
 - Variable naming
 
 ## Exercises
