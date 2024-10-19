@@ -22,7 +22,7 @@ We also completed several exercises to practice these concepts.
 
 ## Concepts
 
-- [Primitive Data types]()
+- [Primitive Data types](./concepts/00_data-types.py)
 
 ## Main Project
 
