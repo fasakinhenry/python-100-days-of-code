@@ -23,6 +23,7 @@ We also completed several exercises to practice these concepts.
 ## Concepts
 
 - [Primitive Data types](./concepts/00_data-types.py)
+- [Learn about Type Error, Type checking, Type Conversion](./concepts/01_type-error-conversion-checking.md)
 
 ## Main Project
 
