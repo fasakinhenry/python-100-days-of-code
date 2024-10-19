@@ -24,4 +24,4 @@ Write a program that adds the digits in a 2 digit number. e.g if the input was 3
 
 ## Solution
 
-> [Click here to see solution]()
+> [Click here to see solution](./02_data-type-exercise.py)

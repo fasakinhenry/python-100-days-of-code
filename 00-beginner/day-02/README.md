@@ -27,7 +27,7 @@ We also completed several exercises to practice these concepts.
 
 ## Exercises
 
-
+- [Data type exercise](./concepts/02_data-type-exercise.md)
 
 ## Main Project
 
