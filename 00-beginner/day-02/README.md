@@ -8,12 +8,12 @@ Today, we covered the following topics:
    - Strings
    - Booleans
 
-2. **Numbers and Operations**:
+2. **Type Conversion**:
+   - Converting between different data types
+
+3. **Numbers and Operations**:
    - Basic arithmetic operations
    - Order of operations (PEMDAS)
-
-3. **Type Conversion**:
-   - Converting between different data types
 
 4. **f-Strings**:
    - Using f-strings for string interpolation
