@@ -56,6 +56,12 @@ Example:
 result = 3 + 2 * 2  # result is 7 because multiplication is performed before addition
 result = (3 + 2) * 2  # result is 10 because parentheses are evaluated first
 ```
+> [!TIP]
+> The PEMDAS order can be a little deceiving because of the order.
+> It is important to note that multiplication and division are equally important
+> Also, addition and subtraction are equally important
+> Safe to say, calculation most to the left will be prioritized when it comes to multiplication and division or even addition and subtraction.
+
 ## Practical Examples
 Here are some practical examples of using mathematical operations in Python:
 
