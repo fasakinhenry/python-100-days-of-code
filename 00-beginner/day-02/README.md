@@ -37,4 +37,6 @@ We also completed several exercises to practice these concepts.
 
 ### Tip Calculator
 
+- [Instructions]()
+
 
