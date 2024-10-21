@@ -31,6 +31,7 @@ We also completed several exercises to practice these concepts.
 
 - [Data type exercise](./concepts/02_data-type-exercise.md)
 - [BMI calculator Project](./concepts/04_BMI-calculator-exercise.md)
+- [Life in weeks calculator according to Tim Urban](./concepts/06_life-in-weeks.py)
 
 ## Main Project
 
