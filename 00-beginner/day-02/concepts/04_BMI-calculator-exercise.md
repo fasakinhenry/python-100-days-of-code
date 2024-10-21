@@ -40,4 +40,9 @@ This repl includes my testing code that will check if your code meets this assig
 
 ## Solution
 
-https://repl.it/@appbrewery/day-2-2-solution 
+https://repl.it/@appbrewery/day-2-2-solution
+
+## Personal Solution
+
+> - [BMI calculator Exercise](./04_BMI-calculator-exercise.py)
+> - [BMI calculator Test](./04_BMI-calculator-test.py)
