@@ -32,3 +32,7 @@ Each person should pay: $19.93
 ## Solution
 
 [Tip Calculator Solution](https://replit.com/@appbrewery/tip-calculator-end)
+
+## Personal Solution
+
+[Tip Calculator Solution](./tip-calculator.py)
