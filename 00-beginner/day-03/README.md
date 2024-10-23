@@ -30,7 +30,7 @@ The `else` clause allows you to execute a block of code if none of the previous 
 
 ## Exercises
 
-- [Odd or Even Exercise]()
+- [Odd or Even Exercise](./concepts/01-odd-or-even.md)
 
 ## Main Project
 

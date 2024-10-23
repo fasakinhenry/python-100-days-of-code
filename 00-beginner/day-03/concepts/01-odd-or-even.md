@@ -58,3 +58,7 @@ This repl includes testing code that will check if your code meets this assignme
 ## Solution
 
 [https://repl.it/@appbrewery/day-3-1-solution](https://repl.it/@appbrewery/day-3-1-solution)
+
+## Personal solution
+
+- [odd or even number python file](./01_odd-or-even.py)
