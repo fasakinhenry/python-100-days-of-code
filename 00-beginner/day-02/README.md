@@ -37,6 +37,7 @@ We also completed several exercises to practice these concepts.
 
 ### Tip Calculator
 
-- [Instructions]()
+- [Instructions](./tip-calculator.md)
+- [Project](./tip-calculator.py)
 
 
