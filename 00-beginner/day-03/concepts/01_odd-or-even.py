@@ -6,7 +6,7 @@ number = int(input("Which number do you want to check? "))
 
 # Check using the bitwise and operator
 
-if (number | 1) == number:
+if (number & 1) == 0:
     print("This is an even number.")
 else:
     print("This is an odd number.")
