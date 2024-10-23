@@ -28,8 +28,9 @@ The `elif` (else if) clause allows you to check multiple conditions in sequence.
 
 The `else` clause allows you to execute a block of code if none of the previous conditions are true.
 
-
 ## Exercises
+
+- [Odd or Even Exercise]()
 
 ## Main Project
 
