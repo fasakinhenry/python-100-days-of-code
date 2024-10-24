@@ -60,4 +60,4 @@ This repl includes my testing code that will check if your code meets this assig
 
 ## Personal solution
 
-- [BMI calculator V2](./00_BMI-calculator-v2.py)
+- [BMI calculator V2](./01_BMI-calculator-v2.py)

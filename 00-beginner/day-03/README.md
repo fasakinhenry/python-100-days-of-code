@@ -28,11 +28,15 @@ The `elif` (else if) clause allows you to check multiple conditions in sequence.
 
 The `else` clause allows you to execute a block of code if none of the previous conditions are true.
 
-- [Nested If statements and Elif statements](./concepts/02_nested-if.py)
+- [If statements](./concepts/00_if-statements.py)
+- [Nested If statements and Elif statements](./concepts/01_nested-if.py)
+- [Multiple If statements and Elif Operators](./concepts/02_multiple-if-statements.py)
+- [Logical Operators](./concepts/03_logical-operators.py)
 
 ## Exercises
 
-- [Odd or Even Exercise](./concepts/01-odd-or-even.md)
+- [Odd or Even Exercise](./concepts/00-odd-or-even.md)
+- [BMI calculation Version 2](./exercises/01_BMI-calculator-v2.md)
 
 ## Main Project
 

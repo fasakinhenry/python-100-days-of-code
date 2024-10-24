@@ -71,4 +71,4 @@ This repl includes my testing code that will check if your code meets this assig
 
 ## Personal Solution
 
-[Check it out here](./02_pizza-practice.py)
+[Check it out here](./03_pizza-order.py)

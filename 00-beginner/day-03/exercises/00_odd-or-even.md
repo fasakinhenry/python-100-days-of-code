@@ -61,4 +61,4 @@ This repl includes testing code that will check if your code meets this assignme
 
 ## Personal solution
 
-- [odd or even number python file](./01_odd-or-even.py)
+- [odd or even number python file](./00_odd-or-even.py)
