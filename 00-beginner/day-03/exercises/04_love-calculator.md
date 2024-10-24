@@ -10,6 +10,8 @@ To work out the love score between two people:
 
 > Take both people's names and check for the number of times the letters in the word TRUE occurs. Then check for the number of times the letters in the word LOVE occurs. Then combine these numbers to make a 2 digit number.
 
+This BuzzFeed article gives more justice on this: https://www.buzzfeed.com/ariannarebolini/what-are-the-chances-your-crush-is-actually-your-true-love
+
 For Love Scores less than 10 or greater than 90, the message should be:
 
 ```"Your score is **x**, you go together like coke and mentos."```
@@ -97,15 +99,15 @@ The testing code will check for print output that is formatted like one of the l
 
 Not sure you're getting the correct score for the exercise? Use this table to check your code's score against mine.
 
-| Name 1             | Name 2            | Score |
-|--------------------|-------------------|-------|
+| Name 1               | Name 2           | Score |
+| -------------------- | ---------------- | ----- |
 | Catherine Zeta-Jones | Michael Douglas  | 99    |
-| Brad Pitt          | Jennifer Aniston  | 73    |
-| Prince William     | Kate Middleton    | 67    |
-| Angela Yu          | Jack Bauer        | 53    |
-| Kanye West         | Kim Kardashian    | 42    |
-| Beyonce            | Jay-Z             | 23    |
-| John Lennon        | Yoko Ono          | 18    |
+| Brad Pitt            | Jennifer Aniston | 73    |
+| Prince William       | Kate Middleton   | 67    |
+| Angela Yu            | Jack Bauer       | 53    |
+| Kanye West           | Kim Kardashian   | 42    |
+| Beyonce              | Jay-Z            | 23    |
+| John Lennon          | Yoko Ono         | 18    |
 
 ## Hint
 
