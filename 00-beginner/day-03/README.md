@@ -40,4 +40,7 @@ The `else` clause allows you to execute a block of code if none of the previous 
 
 ## Main Project
 
+### Treasure Island
 
+- [Treasure Island Instructions](./project/instruction.md)
+- [Treasure Island Project](./project/main.py)
