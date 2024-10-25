@@ -67,3 +67,7 @@ column 3, row 1 would be entered as:
 ## Solution
 
 [Solution on repl.it](https://repl.it/@appbrewery/day-4-3-solution)
+
+## Personal solution
+
+[Check out my personal solution here](./02_treasure-map.py)
