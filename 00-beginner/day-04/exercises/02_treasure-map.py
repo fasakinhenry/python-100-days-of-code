@@ -8,11 +8,12 @@ position = input("Where do you want to put the treasure? ")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this row 👇
-
-
-
-
-
+# Get the column from user input
+column = position[0]
+# Get the row from the user input
+row = position[1]
+# Set the value of the coordinate to X
+map[int(row) - 1][int(column) - 1] = "X"
 
 #Write your code above this row 👆
 
