@@ -1,5 +1,7 @@
 # Who's Paying
 
+The "Banker's Roulette" is a simple program designed to randomly select one person from a list of names. The selected person will be responsible for paying for everyone's food bill.
+
 ## Instructions
 
 You are going to write a program which will select a random name from a list of names. The person selected will have to pay for everybody's food bill.
