@@ -11,7 +11,31 @@ nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 #Eazy Level - Order not randomised:
 #e.g. 4 letter, 2 symbol, 2 number = JduE&!91
+password_easy = ""
 
+# Loop through the letters first
+for letter in range(1, nr_letters + 1):
+    password_easy += random.choice(letters)
+
+# Loop through the symbols
+for symbol in range(1, nr_symbols + 1):
+    password_easy += random.choice(symbols)
+
+# Loop through the numbers
+for number in range(1, nr_numbers + 1):
+    password_easy += random.choice(numbers)
 
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
+password_hard = list(password_easy)
+random.shuffle(password_hard)
+
+# Ask users what kind of password they want
+password_choice = input("Which password do you want? Type 'easy' or 'hard': ")
+
+if password_choice == "easy":
+    print(f"Your password is: {password_easy}")
+elif password_choice == "hard":
+    print(''.join(password_hard))
+else:  
+    print("Invalid choice. Please try again.")
