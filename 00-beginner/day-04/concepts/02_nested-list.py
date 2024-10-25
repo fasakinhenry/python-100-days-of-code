@@ -5,4 +5,5 @@ vegetables = ['Spinach', 'Kale', 'Carrots', 'Celery', 'Beets', 'Broccoli', 'Cucu
 
 dirty_dozen = [fruits, vegetables]
 
+# Print the dirty dozen nested list
 print(dirty_dozen)
