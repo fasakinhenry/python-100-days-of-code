@@ -9,6 +9,10 @@ print(random_integer)
 random_float = random.random() * 5
 print(random_float)
 
+# Print a random float between 0 and 5 using uniform
+random_float = random.uniform(0, 5)
+print(random_float)
+
 # Usage of the random module
 # Generate a random love score
 love_score = random.randint(1, 100)
