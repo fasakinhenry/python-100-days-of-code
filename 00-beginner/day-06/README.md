@@ -2,7 +2,7 @@
 
 ## Concepts
 
-- [Defining anc Calling Functions]()
+- [Defining anc Calling Functions](./concepts/00_define-functions.py)
 
 ## Exercises
 
