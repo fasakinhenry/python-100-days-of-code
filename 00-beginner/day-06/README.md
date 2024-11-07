@@ -4,7 +4,8 @@ In Day 6, most of the codes will be written in Reborg and the code to most of th
 
 ## Concepts
 
-- [Defining anc Calling Functions Python File](./concepts/00_define-functions.py)
+- [Defining and Calling Functions Python File](./concepts/00_define-functions.py)
+- [Turn Around Reeborg world code](./concepts/01_turn-around.py)
 
 ## Exercises
 
