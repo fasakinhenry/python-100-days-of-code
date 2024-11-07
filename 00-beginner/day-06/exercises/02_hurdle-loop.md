@@ -11,4 +11,4 @@
 
 ## Python code Link
 
-[Check out the Python file here](./00_hurdle-loop.py)
+[Check out the Python file here](./02_hurdle-loop.py)
