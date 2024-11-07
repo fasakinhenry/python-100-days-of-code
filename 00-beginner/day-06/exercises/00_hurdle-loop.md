@@ -1,4 +1,4 @@
-# Hurdle Loop challenge
+# Hurdle Loop challenge 1
 
 > [!TIP]
 > Copy the code in python file referenced below and paste in the Reeborg world
