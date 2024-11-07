@@ -9,7 +9,7 @@ def turn_right():
     turn_left()
     turn_left()
 
-
+# Draw a square
 turn_left()
 move()
 turn_right()
