@@ -6,7 +6,6 @@
 ## Exercises
 
 
-
 ## Project
 
 ### Password Generator
