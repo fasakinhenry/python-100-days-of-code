@@ -8,4 +8,4 @@ The challenge involves creating some concepts needed in the game. The concepts i
 
 # Python Code link
 
-- [Check out the project here](./00_hangman-step1.py)
+- [Check out the project here](./00_hangman-step2.py)
