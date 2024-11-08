@@ -9,4 +9,9 @@ In Day 6, most of the codes will be written in Reborg and the code to most of th
 
 ## Exercises
 
-## Project
+- [Hurdle loop challenge 1](./exercises/00_hurdle-loop.md)
+- [Hurdle loop challenge 2](./exercises/01_hurdle-loop.md)
+- [Hurdle loop challenge 2](./exercises/02_hurdle-loop.md)
+- [Hurdle loop challenge 4](./exercises/03_hurdle-loop.md)
+- [Escaping the maze challenge](./exercises/04_maze.md)
+
