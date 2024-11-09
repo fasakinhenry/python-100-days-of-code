@@ -22,6 +22,9 @@ display = []
 for _ in range(word_length):
     display += "_"
 
+print("Guess the letters of this word...")
+print(f"{' '.join(display)}")
+
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
 
