@@ -7,12 +7,10 @@ Welcome to Day 3! Today, we will dive into Function with inputs. We will also be
 
 ## Exercises
 
-- [Odd or Even Exercise](./concepts/00-odd-or-even.md)
-- [BMI calculation Version 2](./exercises/01_BMI-calculator-v2.md)
+
 
 ## Main Project
 
-### Treasure Island
+### Caesar Cipher
 
-- [Treasure Island Instructions](./project/instruction.md)
-- [Treasure Island Project](./project/main.py)
+
