@@ -1,4 +1,4 @@
-# Area Calc
+# Area Calculator
 
 ## Instructions
 
