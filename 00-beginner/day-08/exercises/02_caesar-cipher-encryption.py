@@ -12,19 +12,22 @@ def encrypt(text, shift):
     #shift = 5
     #cipher_text = "mjqqt"
     #print output: "The encoded text is mjqqt"
-    new_text = ""
+    cipher_text = ""
     for letter in text:
-        position = alphabet.index(letter)
-        new_position = position + shift
-        new_text += alphabet[new_position]
+        if letter in alphabet:
+            position = alphabet.index(letter)
+            new_position = (position + shift) % 26
+            cipher_text += alphabet[new_position]
+        else:
+            cipher_text += letter
     
-    print(f"The encoded text is {new_text}")
+    print(f"The encoded text is {cipher_text}")
 
     ##HINT: How do you get the index of an item in a list:
     #https://stackoverflow.com/questions/176918/finding-the-index-of-an-item-in-a-list
 
     ##🐛Bug alert: What happens if you try to encode the word 'civilization'?🐛
-    
+
 
 #TODO-3: Call the encrypt function and pass in the user inputs. You should be able to test the code and encrypt a message.
 encrypt(text, shift)
