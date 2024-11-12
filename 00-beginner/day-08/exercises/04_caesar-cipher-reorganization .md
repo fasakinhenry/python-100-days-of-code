@@ -1,4 +1,4 @@
-# Caesar cipher Encryption
+# Caesar cipher Reorganization
 
 The caesar cipher is a program invented by caesar to send encoded messages. The major aim of this program is to enable us to encode a text using a particular shift number and decode a text using the given shift number.
 
@@ -51,8 +51,11 @@ There are some considerations that needs to be taken when creating the caesar ci
 
 ## Project Scope
 
-In this part we would be working on Reorganizing and refactoring the code for the project.
+In this part we would be working on Reorganizing and refactoring the code for the project. We would do the following:
+
+1. Combine the encrypt() and decrypt() functions into a single function called caesar().
+2. Call the caesar() function, passing over the 'text', 'shift' and 'direction' values.
 
 ## Solution
 
-- [Check out the solution to the exercise here](./02_caesar-cipher-encryption.py)
+- [Check out the solution to the exercise here](./04_caesar-cipher-reorganization.py)
