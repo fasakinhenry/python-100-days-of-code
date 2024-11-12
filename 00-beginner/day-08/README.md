@@ -10,7 +10,11 @@ Welcome to Day 3! Today, we will dive into Function with inputs. We will also be
 
 ## Exercises
 
+The exercises involves creating an area calculator, prime number checker and caesar cipher encryption with different levels of progress. The links to each exercise file are as follows:
 
+- [Area calculator](./exercises/00_area-calc.md)
+- [Prime number checker](./exercises/01_prime-number-checker.md)
+- [Caesar Cipher - Encryption](./exercises/02_caesar-cipher-encryption.md)
 
 ## Main Project
 

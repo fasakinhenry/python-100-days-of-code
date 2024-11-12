@@ -49,10 +49,6 @@ There are some considerations that needs to be taken when creating the caesar ci
 - The program should be able to handle shift numbers given by the user. An important consideration is the fact thata user can give a shift number that is greater than 26(letters of the alphabet). The best thing to do in that case is to use the modulus(%) operator to get an index that is below 26.
 - Inputs or text with symbols should be handled and in this case, when the symbols passes through our caesar cipher program they remain unchanged.
 
-## Project Scope
+## Project
 
-In this part we would be working on the encryption function
-
-## Solution
-
-- [Check out the solution to the exercise here](./02_caesar-cipher-encryption.py)
+- [Check out my Project solution here](./main.py)
