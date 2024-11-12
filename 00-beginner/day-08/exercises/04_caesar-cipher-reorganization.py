@@ -8,6 +8,8 @@ def caesar(text, shift, direction):
   result = ""
   if direction == "decode":
     shift *= -1
+  elif direction == "encode":
+    shift = shift
   for char in text:
     if char in alphabet:
       position = alphabet.index(char)
