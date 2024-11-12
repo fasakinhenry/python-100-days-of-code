@@ -19,9 +19,12 @@ def encrypt(plain_text, shift_amount):
 def decrypt(text, shift):
   normal_text = ""
   for char in text:
-    position = alphabet.index(char)
-    new_position = position - shift
-    normal_text += alphabet[new_position]
+    if char in alphabet:
+      position = alphabet.index(char)
+      new_position = position - shift
+      normal_text += alphabet[new_position]
+    else:
+      normal_text += char
   print(f"The decoded text is {normal_text}")
   #TODO-2: Inside the 'decrypt' function, shift each letter of the 'text' *backwards* in the alphabet by the shift amount and print the decrypted text.  
   #e.g. 
