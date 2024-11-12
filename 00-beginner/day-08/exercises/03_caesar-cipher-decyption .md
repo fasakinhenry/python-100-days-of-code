@@ -1,41 +1,58 @@
-alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+# Caesar cipher Encryption
 
-direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
-text = input("Type your message:\n").lower()
-shift = int(input("Type the shift number:\n"))
+The caesar cipher is a program invented by caesar to send encoded messages. The major aim of this program is to enable us to encode a text using a particular shift number and decode a text using the given shift number.
 
-def encrypt(plain_text, shift_amount):
-  cipher_text = ""
-  for char in plain_text:
-    if char in alphabet:
-      position = alphabet.index(char)
-      new_position = (position + shift_amount) % 26
-      cipher_text += alphabet[new_position]
-    else:
-      cipher_text += char
-  print(f"The encoded text is {cipher_text}")
+## How it works
 
-#TODO-1: Create a different function called 'decrypt' that takes the 'text' and 'shift' as inputs.
-def decrypt(text, shift):
-  normal_text = ""
-  for char in text:
-    if char in alphabet:
-      position = alphabet.index(char)
-      new_position = position - shift
-      normal_text += alphabet[new_position]
-    else:
-      normal_text += char
-  print(f"The decoded text is {normal_text}")
-  #TODO-2: Inside the 'decrypt' function, shift each letter of the 'text' *backwards* in the alphabet by the shift amount and print the decrypted text.  
-  #e.g. 
-  #cipher_text = "mjqqt"
-  #shift = 5
-  #plain_text = "hello"
-  #print output: "The decoded text is hello"
+The parties(people) who want to send each other encoded messages usually agree on a shift number. When the party receives the encoded message, they use the agreed shift number to decode the message.
 
+To encode a message, each letter in the words are shifted to the right by the shift number.
 
-#TODO-3: Check if the user wanted to encrypt or decrypt the message by checking the 'direction' variable. Then call the correct function based on that 'drection' variable. You should be able to test the code to encrypt *AND* decrypt a message.
-if direction == "encode":
-    encrypt(plain_text=text, shift_amount=shift)
-elif direction == "decode":
-  decrypt(text=text, shift=shift)
+Similarly, to decode a message each letter in the word are shifted to the left. By shifting we mean the letters change to the letter in the shift position away from the actual character.
+
+## Example Encoding Input
+
+Throughout the examples, we would be using a shift number of **5**
+
+```
+Hello
+```
+
+## Example Output
+
+```
+mjqqt
+```
+
+Each letter in the word "Hello" is shifted by 5 to the right when Encoding.
+
+## Example Decoding Input
+
+Let's say we give the encoded version of hello(mjqqt) to the decoder
+
+```
+mjqqt
+```
+
+## Example Decoding output
+
+```
+hello
+```
+
+## Considerations
+
+There are some considerations that needs to be taken when creating the caesar cipher program. The precautions are as follows:
+
+- We should be able to handle inputs that includes Capital letters. There are different ways of handling this. We can either convert all inputs of capital letters into lower case or create a seperate character set for Uppercase letters so uppercase letters can appear in the encoded or decoded output.
+- The user experience of the app should be seamless and there should be adequate error validation
+- The program should be able to handle shift numbers given by the user. An important consideration is the fact thata user can give a shift number that is greater than 26(letters of the alphabet). The best thing to do in that case is to use the modulus(%) operator to get an index that is below 26.
+- Inputs or text with symbols should be handled and in this case, when the symbols passes through our caesar cipher program they remain unchanged.
+
+## Project Scope
+
+In this part we would be working on the encryption function
+
+## Solution
+
+- [Check out the solution to the exercise here](./02_caesar-cipher-encryption.py)
