@@ -7,9 +7,9 @@ shift = int(input("Type the shift number:\n"))
 def encrypt(plain_text, shift_amount):
   cipher_text = ""
   for char in plain_text:
-    position = alphabet.index(char)
-    new_position = (position + shift_amount) % 26
     if char in alphabet:
+      position = alphabet.index(char)
+      new_position = (position + shift_amount) % 26
       cipher_text += alphabet[new_position]
     else:
       cipher_text += char
