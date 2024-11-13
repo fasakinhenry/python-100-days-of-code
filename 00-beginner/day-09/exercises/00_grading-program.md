@@ -45,3 +45,7 @@ This repl includes my testing code that will check if your code meets this assig
 ## Solution
 
 https://repl.it/@appbrewery/day-9-1-solution
+
+## Personal Solution
+
+- [Check out my personal Solution here](./00_grading-program.py)
