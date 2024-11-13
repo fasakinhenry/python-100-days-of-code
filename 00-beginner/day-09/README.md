@@ -8,4 +8,3 @@ This is the folder for day 9 of the 100 days of code
 
 ## Project
 
-
