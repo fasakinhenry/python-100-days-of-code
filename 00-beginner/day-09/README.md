@@ -18,3 +18,11 @@ This is the folder for day 9 of the 100 days of code
 
 ## Project
 
+### Blind Auction Projecte
+
+- [Check out the project here](./project/info.md)
+
+If you want to run the Python file:
+
+> [Click to Run it now](./project/main.py)
+
