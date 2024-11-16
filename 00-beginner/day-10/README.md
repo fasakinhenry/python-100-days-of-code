@@ -6,6 +6,13 @@ In Python, functions can return data as a result. The data that a function retur
 
 ## Concepts
 
+- [Function with outputs](./concepts/00_function-with-outputs.py)
+- [Function with multiple outputs](./concepts/01_multiple-return-values.py)
+
 ## Exercises
+
+- [Days in Month](./exercises/00_days-in-month.md)
+- [Calculator - Part 1](./exercises/01_calculator-part1/info.md)
+- [Calculator - Part 2](./exercises/02_calculator-part2/info.md)
 
 ## Project
