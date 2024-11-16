@@ -47,3 +47,18 @@ result = calculation_function(num1, num2)
 
 # Print the result
 print(f"{num1} {operation_symbol} {num2} = {result}")
+
+# Ensure continuation of the calculator
+continue_calculating = True
+while continue_calculating:
+    user_choice = input(f"Type 'y' to continue calculating with {result}, or type 'n' to start a new calculation: ")
+    if user_choice == "y":
+        num1 = result
+        operation_symbol = input("Pick an operation: ")
+        num2 = int(input("What's the next number?: "))
+        calculation_function = operations[operation_symbol]
+        result = calculation_function(num1, num2)
+        print(f"{num1} {operation_symbol} {num2} = {result}")
+    else:
+        continue_calculating = False
+        print("Goodbye")
