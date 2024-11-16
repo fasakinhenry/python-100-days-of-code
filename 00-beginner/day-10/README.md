@@ -16,3 +16,7 @@ In Python, functions can return data as a result. The data that a function retur
 - [Calculator - Part 2](./exercises/02_calculator-part2/info.md)
 
 ## Project
+
+### Calculator Project
+
+Check out the Calculator Project [here](./project/instructions.md)
