@@ -19,8 +19,6 @@ def divide(n1, n2):
 # import logo from art
 from art import logo
 
-# Print the logo
-print(logo)
 
 # create a dictionary to store the operations
 operations = {
@@ -33,9 +31,12 @@ operations = {
 # create the calculator function
 def calculator():
     """This function will perform the calculator operations"""
+    # Print the logo
+    print(logo)
+
     # Create variables to store the user numbers
-    num1 = int(input("What's the first number?: "))
-    num2 = int(input("What's the second number?: "))
+    num1 = float(input("What's the first number?: "))
+    num2 = float(input("What's the second number?: "))
 
     # Create a loop to ask the user for the operation
     for symbol in operations:
@@ -56,7 +57,7 @@ def calculator():
         if user_choice == "y":
             num1 = result
             operation_symbol = input("Pick an operation: ")
-            num2 = int(input("What's the next number?: "))
+            num2 = float(input("What's the next number?: "))
             calculation_function = operations[operation_symbol]
             result = calculation_function(num1, num2)
             print(f"{num1} {operation_symbol} {num2} = {result}")
