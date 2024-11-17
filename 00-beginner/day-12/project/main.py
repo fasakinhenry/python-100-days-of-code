@@ -2,6 +2,10 @@
 # Import the random module
 import random
 
+# Import and print the logo
+from art import logo
+print(logo)
+
 # Print the greeting message
 print("Welcome to the Number Guessing Game!")
 print("I am thinking of a number between 1 and 100")
