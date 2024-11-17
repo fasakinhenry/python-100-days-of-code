@@ -43,4 +43,8 @@ These are potential features we may add to the project in the future 🚀
 - Add a graphical user interface
 - Allow multiple players
 
+## Check out the BlackJack Flowchart to understand how to exactly implement the code
+
+[Check out Flowchart](./resources/Blackjack_Flowchart.pdf)
+
 Happy coding!
