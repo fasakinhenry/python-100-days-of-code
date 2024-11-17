@@ -15,6 +15,10 @@ The game will allow a user to play against the computer. The main features inclu
 - Determining the winner
 - Option to play again
 
+## Solution
+
+**Check out the solution to the blackjack project [here](./project/instructions.md)**
+
 The best way to create complex projects like this is to break down the task into smaller bits or chunks that could be tackled easily. We can break this project into these following steps:
 
 1. Implementing basic game logic
