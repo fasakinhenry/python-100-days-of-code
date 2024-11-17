@@ -3,9 +3,6 @@ import random
 # Import the logo
 from art import logo
 
-# Print the blackjack logo
-print(logo)
-
 # Create a function to deal cards
 def deal_card():
     """Returns a new card from the deck of cards"""
@@ -45,6 +42,10 @@ def compare(user_score, computer_score):
     
 def game_play():
     """Function that starts the game and handle the game play logic"""
+    
+    # Print the blackjack logo
+    print(logo)
+
     user_cards = []
     computer_cards = []
     is_game_over = False
