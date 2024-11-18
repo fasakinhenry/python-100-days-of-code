@@ -48,16 +48,20 @@ def play_game():
         a_followers = account_a['follower_count']
         b_followers = account_b['follower_count']
         is_correct = check_answer(guess, a_followers, b_followers)
-
+        # Print logo
         print(logo)
+        # Add a way to clear the terminal
+        if is_correct:
+            print("\033c")
         if is_correct:
             score += 1
             print(f"You're right! Current score: {score}.")
         else:
+            # clear the screen
+            print("\033c")
             print(f"Sorry, that's wrong. Final score: {score}")
             game_continue = False
 
+
 # Calling the play_game function
 play_game()
-
-
