@@ -1,11 +1,18 @@
-# Debug Odd or Even
-Instructions
-Read this the code in main.py
-Spot the problems 🐞.
-Modify the code to fix the program.
-Fix the code so that it works and passes the tests when you submit.
+# Debug this code
+# number = int(input("Which number do you want to check?"))
 
-Hint
-Review the previous lesson and go through the 10 steps to tackle these debugging problems.
-Solution
-https://repl.it/@appbrewery/day-13-1-solution
+# if number % 2 = 0:
+#   print("This is an even number.")
+# else:
+#   print("This is an odd number.")
+
+# Solution - Debugged code
+number = int(input("Which number do you want to check?"))
+
+if number % 2 == 0:
+  print("This is an even number.")
+else:
+  print("This is an odd number.")
+  
+# The error was in the if statement. The comparison operator should be '==' instead of '='.
+  

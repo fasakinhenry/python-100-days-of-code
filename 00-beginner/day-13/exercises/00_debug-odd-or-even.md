@@ -15,3 +15,7 @@ Fix the code so that it works and passes the tests when you submit.
 ## Solution
 
 https://repl.it/@appbrewery/day-13-1-solution
+
+## Personal Solution
+
+Check out my solution [here](00_debug-odd-or-even.py)
