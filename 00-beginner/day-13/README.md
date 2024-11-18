@@ -15,6 +15,23 @@ Debugging is the process of finding and fixing errors in your code. It is an ess
 - **Rubber Duck Debugging**: Sometimes, simply explaining your code to someone else (or even a rubber duck) can help you identify the source of errors and come up with a solution.
 - **Google**: When in doubt, Google is your friend. Many programming problems have been encountered and solved by others, so a quick search can often lead you to a solution.
 
-## Concepts
+## Concept
 
-- 
+The concepts shows the step by step procedures to solve a bug
+
+- [Describe the Problem](./concepts/00_describe-the-problem.py)
+- [Reproduce the Bug](./concepts/01_reproduce-the-bug.py)
+- [Play the computer](./concepts/02_play-computer.py)
+- [Fix the Errors](./concepts/03_fixing-errors.py)
+- [Print the lines of the Bug](./concepts/04_printing-bugs.py)
+- [Use a Debugger](./concepts/05_using-debugger.py)
+
+## Exercises
+
+- [Debug Odd or Even](./exercises/00_debug-odd-or-even.md)
+- [Debug Leap Year](./exercises/01_debug-leap-year.md)
+- [Debug FizzBuzz](./exercises/02_debug-fizzbuzz.md)
+
+## Project
+
+There is no project for this day. Enjoy
