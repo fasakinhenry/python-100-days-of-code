@@ -7,10 +7,12 @@ import random
 
 # Function to get the random data
 def get_random_data():
+    """Returns a random data from the data list"""
     return random.choice(data)
 
 # Function to format the data
 def format_data(account):
+    """Takes the account data and returns the printable format"""
     account_name = account['name']
     account_desc = account['description']
     account_country = account['country']
@@ -21,12 +23,14 @@ def format_data(account):
 
 # Function to check the answer
 def check_answer(guess, a_followers, b_followers):
+    """Takes the user guess and follower counts and returns if the user is correct"""
     if a_followers > b_followers:
         return guess == 'a'
     return guess == 'b'
 
 # Function to play the game
 def play_game():
+    """Function to play the Higher Lower game"""
     print(logo)
     score = 0
     game_continue = True
