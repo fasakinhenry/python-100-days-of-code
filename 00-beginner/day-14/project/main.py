@@ -50,10 +50,9 @@ def play_game():
         is_correct = check_answer(guess, a_followers, b_followers)
         # Print logo
         print(logo)
-        # Add a way to clear the terminal
         if is_correct:
+            # Add a way to clear the terminal
             print("\033c")
-        if is_correct:
             score += 1
             print(f"You're right! Current score: {score}.")
         else:
