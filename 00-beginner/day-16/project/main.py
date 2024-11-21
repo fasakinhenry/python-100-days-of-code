@@ -24,7 +24,6 @@ while is_on:
     elif menu.find_drink(choice) != None:
         # Get the drink from the menu
         drink = menu.find_drink(choice)
-        if coffee_maker.is_resource_sufficient(drink):
-            if money_machine.make_payment(drink.cost):
-                coffee_maker.make_coffee(drink)
+        if coffee_maker.is_resource_sufficient(drink) and money_machine.make_payment(drink.cost):
+            coffee_maker.make_coffee(drink)
 
