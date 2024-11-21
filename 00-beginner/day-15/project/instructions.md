@@ -84,3 +84,7 @@ pennies = 0.25 + 0.1 x 2 + 0.05 + 0.01 x 2 = $0.52
 
     b. Once all resources have been deducted, tell the user “Here is your latte. Enjoy!”. If
     latte was their choice of drink.
+
+## Project Solution
+
+- [See the Project code Here](./main.py)
