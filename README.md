@@ -97,4 +97,6 @@ This folder structure allows for easy navigation and organization of the project
 | 14  | Turtle Crossing Game   | Game Development                                 |
 | 15  | Coffee Machine         | Object-Oriented Design                           |
 
+![python-100-days-of-code](https://socialify.git.ci/fasakinhenry/python-100-days-of-code/image?language=1&owner=1&name=1&stargazers=1&theme=Light)
+
 > copyright 2024
