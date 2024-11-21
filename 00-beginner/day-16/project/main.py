@@ -21,10 +21,10 @@ while is_on:
     elif choice == "report":
         coffee_maker.report()
         money_machine.report()
-    else:
+    elif menu.find_drink(choice) != None:
         # Get the drink from the menu
         drink = menu.find_drink(choice)
         if coffee_maker.is_resource_sufficient(drink):
-            money_machine.make_payment(drink.cost)
-            coffee_maker.make_coffee(drink)
+            if money_machine.make_payment(drink.cost):
+                coffee_maker.make_coffee(drink)
 
