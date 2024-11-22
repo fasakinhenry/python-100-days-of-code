@@ -17,6 +17,6 @@ There are no exercises for day 16 😔
 
 We worked on the Coffee Machine Project using Object Oriented Programming concepts. To better grasp the project. Check out the following resources or files:
 
-- [Project Requirements](./project/menu.py)
+- [Project Requirements](./resources/00_coffee-machine-requirements.md)
 - [Coffee Machine Documentation]()
 
