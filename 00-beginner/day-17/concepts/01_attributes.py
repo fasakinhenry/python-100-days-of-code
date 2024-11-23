@@ -7,7 +7,8 @@ class User:
 
 # create an object from the User class
 user_1 = User("001", "Henry")
+user_2 = User("002", "Angela")
 
 # Accessing the number of followers which is default
 print(user_1.followers)
-print(user_1.username)
+print(user_2.username)
