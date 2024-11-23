@@ -6,4 +6,8 @@ class User:
         self.followers = 0
 
 # create an object from the User class
-user_1 = User()
+user_1 = User("001", "Henry")
+
+# Accessing the number of followers which is default
+print(user_1.followers)
+print(user_1.username)
