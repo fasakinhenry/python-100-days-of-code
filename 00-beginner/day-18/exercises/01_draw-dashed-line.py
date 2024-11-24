@@ -10,6 +10,5 @@ for _ in range(15):
     turtle.forward(10)
     turtle.pendown()
 
-
 screen = Screen()
 screen.exitonclick()
