@@ -17,11 +17,13 @@ def random_color():
 
 turtle.speed("fastest")
 
-for _ in range(72):
-    turtle.color(random_color())
-    turtle.circle(100)
-    turtle.setheading(turtle.heading() + 5)
+def draw_spirograph(size_of_gap):
+    for _ in range(int(360 / size_of_gap)):
+        turtle.color(random_color())
+        turtle.circle(100)
+        turtle.setheading(turtle.heading() + size_of_gap)
 
+draw_spirograph(10)
 
 screen = t.Screen()
 screen.exitonclick()
