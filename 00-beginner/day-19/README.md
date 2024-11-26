@@ -2,8 +2,6 @@
 
 Welcome to Day 19 of the **Python 100 Days of Code**! Today, we will dive into **Instances**, **State**, and **Higher-Order Functions**. Additionally, we will explore **event-driven programming** and use the `turtle` module to create interactive projects that involve user input.
 
----
-
 ## Concepts
 
 1. Instances and State
