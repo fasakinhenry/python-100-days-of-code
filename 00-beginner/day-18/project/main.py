@@ -7,6 +7,9 @@ turtle = t.Turtle()
 # Change the color mode using the turtle class
 t.colormode(255)
 
+# Hide the turtle
+turtle.hideturtle()
+
 # create function to generate random colors
 def random_color(color_list):
     color = random.choice(color_list)
