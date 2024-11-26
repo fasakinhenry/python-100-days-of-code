@@ -12,7 +12,6 @@ screen.setup(width=600, height=600)
 # create a snake array to hold the squares that makes up the snake
 # snake = []
 initial_position = 0
-print(initial_position)
 
 # Create an array segments to hold all the segments of the snake
 segments = []
