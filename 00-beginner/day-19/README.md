@@ -24,6 +24,10 @@ Welcome to Day 19 of the **Python 100 Days of Code**! Today, we will dive into *
 
 - [Create the etch a sketch app](./exercises/00_etch-a-sketch-app.py)
 
+## Quiz
+
+- [Check out the Quiz about turtle coordinate in HTML format here](./quiz/00_turtle-coordinate-system-quiz.html)
+
 ## Project: Turtle Racing Game
 
 ### Objective
