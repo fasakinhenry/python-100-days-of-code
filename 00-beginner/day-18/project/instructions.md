@@ -20,6 +20,16 @@ In this project, you will create a digital version of a painting inspired by the
 
 By the end of this project, you will have a beautiful piece of digital art and a better understanding of how to use Python for creative projects.
 
+## Tips
+
+- Use the `turtle` module to draw shapes and patterns on the canvas.
+- Get the color from a list of colors to create a colorful artwork.
+- The colors can be gotten using the `colorgram` module.
+- Use the cologram module to extract colors from an actual image of hirst painting.
+- Use nested loops to arrange the dots in a grid pattern.
+- Hide the turtle and set the speed to maximum for a cleaner drawing.
+
+
 ### Project Solution
 
 Check the solution for the project [here](./main.py)
