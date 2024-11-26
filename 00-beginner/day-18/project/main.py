@@ -3,7 +3,8 @@
 import colorgram
 
 rgb_colors = []
-colors = colorgram.extract('image.jpg', 30)
+colors = colorgram.extract('00-beginner/day-18/project/image.jpg', 30)
+
 for color in colors:
     rgb_colors.append(color.rgb)
 
