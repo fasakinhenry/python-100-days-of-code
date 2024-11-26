@@ -4,8 +4,7 @@ In Day 17, we are going to be working on the quiz project and learn all about Ob
 
 ## Concepts
 
-- [Creating a class](./concepts/00_creating-class.py)
-- [Learning about attributes in class](./concepts/01_attributes.py)
+- Creating a class
 - The `__init__` method
 - [Adding methods to a class](./concepts/02_methods.py)
 - Creating objects from a class
@@ -33,7 +32,7 @@ In this project, you will create a quiz application using OOP principles. The ap
 By the end of this project, you will have a solid understanding of how to use OOP to structure your code and make it more modular and reusable.
 
 
-### Project solution and instructions
+### Project solution
 
 - The instructions for the project is here: [Quiz Project instructions](./project/instructions.md)
 - Check the solution for the project [here](./project/main.py)
