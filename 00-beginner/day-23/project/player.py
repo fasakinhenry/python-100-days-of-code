@@ -14,5 +14,4 @@ class Player(Turtle):
         self.setheading(90)
 
     def move(self):
-        self.new_y = self.ycor() + 20
-        self.goto(self.xcor(), self.new_y)
+        self.forward(MOVE_DISTANCE)
