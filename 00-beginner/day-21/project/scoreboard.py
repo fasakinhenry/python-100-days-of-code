@@ -1,5 +1,9 @@
 from turtle import Turtle
 
+# Create constants to be used
+ALIGNMENT = "center"
+FONT = ("Courier", 24, "normal")
+
 # create a scoreboard class that inherits from the Turtle class
 class ScoreBoard(Turtle):
     def __init__(self) -> None:
@@ -12,7 +16,7 @@ class ScoreBoard(Turtle):
         self.update_scoreboard()
 
     def update_scoreboard(self):
-        self.write(f"Score: {self.score}", align="center", font=("Calibri", 24, "normal"))
+        self.write(f"Score: {self.score}", align=ALIGNMENT, font=FONT)
     
     def increase_score(self):
         self.score += 1
