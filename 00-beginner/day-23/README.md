@@ -11,5 +11,3 @@ There are no concepts for this particular day.
 There are no exercises for this particular day.
 
 ## Project: The turtle crossing game
-
-- []
