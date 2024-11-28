@@ -27,6 +27,12 @@ class CarManager:
     def move_cars(self):
         for car in self.cars:
             car.backward(STARTING_MOVE_DISTANCE)
+
+    def level_up(self):
+        global STARTING_MOVE_DISTANCE
+        STARTING_MOVE_DISTANCE += MOVE_INCREMENT
+
+    
     # Method to add new cars
     # Method to remove new car
 
