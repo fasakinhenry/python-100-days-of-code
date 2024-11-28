@@ -13,8 +13,6 @@ class Ball(Turtle):
         self.new_x = self.xcor() + self.x_move
         self.new_y = self.ycor() + self.y_move
         self.goto(self.new_x, self.new_y)
-        self.bounce()
     
     def bounce(self):
-        if self.ycor() > 280 or self.ycor() > 280:
-            self.y_move *= -1
+        self.y_move *= -1
