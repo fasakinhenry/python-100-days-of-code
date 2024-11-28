@@ -11,3 +11,6 @@ There are no concepts for this particular day.
 There are no exercises for this particular day.
 
 ## Project: The turtle crossing game
+
+- [Project Instructions](project/instructions.md)
+- [Project Code](project/main.py)
