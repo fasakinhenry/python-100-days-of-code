@@ -1,6 +1,6 @@
 from turtle import Turtle
 
-FONT = ("Poppins", 24, "normal")
+FONT = ("Calibri", 24, "normal")
 
 class Scoreboard(Turtle):
     def __init__(self) -> None:
