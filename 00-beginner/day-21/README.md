@@ -14,8 +14,17 @@ We will doing some of the following things in this lesson:
 
 ## Concepts
 
+- [Inheritance in OOP](./concepts/00_inheritance.py)
+- Python Lists slicing
+- Building different parts of our game
+
 ## Exercises
 
+There are no exercises on day 21 because we are building a project throughout(snake Game)
+
 ## Project: Snake Game Part 2
+
+- [Check out the instructions here](./project/instructions.md)
+- [Check out the final version of the snake game here](./project/main.py)
 
 
