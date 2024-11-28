@@ -1,6 +1,7 @@
 # import turtle
 from turtle import Screen
 from snake import Snake
+from food import Food
 import time
 
 # Setup the screen with custom properties
@@ -11,6 +12,7 @@ screen.tracer(0)
 screen.setup(width=600, height=600)
 
 snake = Snake()
+food = Food()
 
 # add Event listeners to handle snake movement
 screen.listen()
