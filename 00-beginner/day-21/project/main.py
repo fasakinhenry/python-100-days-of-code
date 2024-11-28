@@ -2,6 +2,7 @@
 from turtle import Screen
 from snake import Snake
 from food import Food
+from scoreboard import ScoreBoard
 import time
 
 # Setup the screen with custom properties
@@ -13,6 +14,7 @@ screen.setup(width=600, height=600)
 
 snake = Snake()
 food = Food()
+score_board = ScoreBoard()
 
 # add Event listeners to handle snake movement
 screen.listen()
