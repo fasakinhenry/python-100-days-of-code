@@ -10,8 +10,9 @@ LEFT = 180
 DOWN = 270
 RIGHT = 0
 
-class Snake:
+class Snake(Turtle):
     def __init__(self) -> None:
+        super().__init__()
         self.segments = []
         self.color = "white"
         self.initial_position = STARTING_POSITION
