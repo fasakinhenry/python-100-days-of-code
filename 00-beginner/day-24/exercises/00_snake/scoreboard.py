@@ -9,7 +9,7 @@ class ScoreBoard(Turtle):
     def __init__(self) -> None:
         super().__init__()
         self.score = 0
-        self.high_score = self.reset_high_score()
+        self.read_high_score()
         self.color("white")
         self.hideturtle()
         self.penup()
@@ -22,11 +22,16 @@ class ScoreBoard(Turtle):
 
     def read_high_score(self):
         with open("C:/Users/HP/Desktop/python-100-days-of-code/00-beginner/day-24/exercises/00_snake/data.txt") as file:
-            return file.read()
+            self.high_score = int(f"{file.read()}")
+
+    def update_high_score(self, score):
+        with open("C:/Users/HP/Desktop/python-100-days-of-code/00-beginner/day-24/exercises/00_snake/data.txt", mode="w") as file:
+            file.write(f"{score}")
 
     def reset(self):
         if self.score > self.high_score:
             self.high_score = self.score
+            self.update_high_score(self.score)
         self.score = 0
         self.update_scoreboard()
     
