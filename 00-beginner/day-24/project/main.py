@@ -10,11 +10,12 @@ file_path = os.path.join(script_dir, "./input/Names/invited_names.txt")
 with open(file_path, mode="r") as file:
     # Get each names without the newline character
     names = file.readlines()
-    start_path = os.path.join(script_dir, "./output/ReadyToSend")
+    start_path = os.path.join(script_dir, "./input/Letters/starting_letter.txt")
     for name in names:
-        with open("./input/Letters/starting_letter.txt", mode="r") as file:
+        with open(start_path, mode="r") as file:
             letter = file.read()
-            with open(f"./output/ReadyToSend/letter_for_{name.strip()}.txt", mode="w") as file:
+            final_path = os.path.join(script_dir, f"./output/ReadyToSend/letter_for_{name.strip()}.txt")
+            with open(final_path, mode="w") as file:
                 file.write(letter.replace("[name]", name.strip()))
 
 # replace the name in the letter
