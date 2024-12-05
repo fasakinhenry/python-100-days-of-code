@@ -1,2 +1,3 @@
 # default pycache files
 __pycache__
+.venv
